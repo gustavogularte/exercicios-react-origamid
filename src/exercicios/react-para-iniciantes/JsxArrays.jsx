@@ -28,11 +28,11 @@ const JsxArrays = () => {
     (item) => +item.preco.replace('R$ ', '') > 1500
   );
   return (
-    <article>
+    <article style={{marginTop: '4rem'}}>
       <h1>Exercicio 2 - JSX Arrays</h1>
       {dados.map(({ id, nome, preco, cores }) => (
         <section key={id}>
-          <h2>{nome}</h2>
+          <h3>{nome}</h3>
           <p>Preço: {preco}</p>
           <ul>
             {cores.map((cor) => (

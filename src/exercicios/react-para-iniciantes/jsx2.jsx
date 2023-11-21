@@ -33,7 +33,7 @@ const Jsx2 = () => {
   const total = precoFilter.reduce((a, b) => a + b);
 
   return (
-    <article>
+    <article style={{marginTop: '4rem'}}>
       <h1>Exercicio 1 - JSX</h1>
       <p>Nome: {dados.cliente}</p>
       <p>Idade: {dados.idade}</p>
