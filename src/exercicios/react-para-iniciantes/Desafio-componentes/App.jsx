@@ -14,7 +14,7 @@ const App = () => {
   const { pathname } = window.location;
 
   return (
-    <article style={{ marginTop: '4rem' }}>
+    <article>
       <h1>Exercício 3 - Desafio componentes</h1>
       <ul>
         <li>
