@@ -5,6 +5,7 @@ import Ex3 from './exercicios/react-para-iniciantes/Desafio-componentes/App';
 import Ex4 from './exercicios/react-hooks/ExUseState';
 import Ex5 from './exercicios/react-hooks/ExUseEffect'
 import Ex6 from './exercicios/react-hooks/ExUseContext/App'
+import Ex7 from './exercicios/formularios/Input'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Ex4 />
       <Ex5 />
       <Ex6 />
+      <Ex7 />
     </main>
   );
 };
