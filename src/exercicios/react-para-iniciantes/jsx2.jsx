@@ -34,7 +34,7 @@ const Jsx2 = () => {
 
   return (
     <article>
-      <h1>Exercicio 1 - JSX</h1>
+      <h1>Exercício 1 - JSX</h1>
       <p>Nome: {dados.cliente}</p>
       <p>Idade: {dados.idade}</p>
       <p>Situação: <span style={{color: dados.ativa ? 'green' : 'red'}}>{dados.ativa ? 'Ativa' : 'Inativa'}</span></p>

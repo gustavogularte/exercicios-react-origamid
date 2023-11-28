@@ -29,7 +29,7 @@ const JsxArrays = () => {
   );
   return (
     <article>
-      <h1>Exercicio 2 - JSX Arrays</h1>
+      <h1>Exercício 2 - JSX Arrays</h1>
       {dados.map(({ id, nome, preco, cores }) => (
         <section key={id}>
           <h3>{nome}</h3>
