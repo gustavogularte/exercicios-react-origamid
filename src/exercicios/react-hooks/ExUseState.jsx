@@ -12,7 +12,6 @@ const ExUseState = () => {
 
   const [produtos, setProdutos] = React.useState(null);
   const [loading, setLoading] = React.useState(null);
-  const [erro, setErro] = React.useState(null);
 
   async function fetchProdutos({ target }) {
     setLoading(true);
