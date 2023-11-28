@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Radio = ({ pergunta, options, resposta, id, value, onChange, active }) => {
-  if (!active) return null
+const Radio = ({ pergunta, id, options, onChange, value, slide }) => {
+  if (!slide) return null;
 
   return (
     <fieldset>
